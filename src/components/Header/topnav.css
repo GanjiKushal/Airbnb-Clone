@@ -1,0 +1,71 @@
+.header_mainComponent{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(227, 226, 226);
+    padding-left: 5%;
+    position: sticky;
+    inset: 0;
+    background-color: #fff;
+}
+
+.header_userComponent{
+    display: flex;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding-right: 6%;
+}
+.header_host{
+    font-size: 0.98rem;
+    padding: 0px 15px;
+}
+.header_host:hover{
+    background-color: rgb(245, 244, 244);
+    border-radius: 50px;
+}
+.globe{
+    padding:10px 15px;
+    border-radius: 50%;
+}
+.globe:hover{
+    background-color: rgb(245, 244, 244);
+}
+.userComponent{
+    padding: 5px 8px;
+    border: 1px solid lightgray;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+}
+.userComponent:hover{
+    box-shadow: 0px 0px 8px lightgray ;
+}
+
+.userComponent::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    right: 7px;
+    top: 5px;
+  }
+
+  
+
+@media screen and (min-width: 650px) and (max-width: 990px) {
+    .header_host{
+        display: none;
+    }
+}
+    @media screen and (max-width:650px) {
+    .header_host{
+        display: none;
+    }
+    
+}

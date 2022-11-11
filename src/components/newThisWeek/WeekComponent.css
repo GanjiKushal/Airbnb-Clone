@@ -1,0 +1,51 @@
+.week_mainContainer{
+    min-width: 40%;
+    height: 45vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px;
+    color: #fff;
+    box-sizing: border-box;
+
+}
+
+.week_text .shortText{
+    line-height: 0px;
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+}
+.longText{
+    margin-top: 0;
+    font-size: 1.55rem;
+    width: 240px;
+    font-weight: 600;
+}
+.buttonContainer button{
+    
+    padding: 0.55rem 0.77rem;
+    border: none;
+    border-radius: 10px;
+    font-weight:bold;
+    color: rgb(51, 51, 51);
+    font-size: 0.9rem;
+}
+
+
+@media screen and (min-width: 650px) and (max-width: 990px) {
+    
+    .week_mainContainer{
+        min-width: 60%;
+    }
+    }
+    @media screen and (max-width: 650px) {
+        
+        .week_mainContainer{
+            min-width: 80%;
+        }
+    
+    }

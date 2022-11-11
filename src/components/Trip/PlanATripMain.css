@@ -1,0 +1,54 @@
+.PlanATrip_mainContainer{
+    width: 100%;
+    padding-left: 5%;
+    margin-top:0.5rem;
+    padding-bottom: 3rem;
+    padding-right: 4%;
+    box-sizing: border-box;
+}
+.PlanATrip_headTextContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.PlanATrip_headTextContainer p{
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    color: rgb(33, 33, 33);
+    margin-bottom: -1rem;
+    letter-spacing: -0.3px;
+    word-spacing: -1px;
+    
+}
+.planatrip{
+    display: flex;
+    gap: 1%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+   
+
+}
+.plan_crousel{
+    display: flex;
+    gap: 0.5rem;
+}
+.choicebtn{
+    margin-top: 40px;
+}
+
+
+@media screen and (min-width: 650px) and (max-width: 990px) {
+    
+    .PlanATrip_mainContainer{
+        padding-right: 0%;
+    }
+    }
+    @media screen and (max-width: 650px) {
+        
+        .PlanATrip_mainContainer{
+            padding-right: 0%;
+        }
+    
+    }

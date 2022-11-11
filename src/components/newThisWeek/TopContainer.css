@@ -1,0 +1,87 @@
+.NewThisWeek_Container{
+    padding-left: 5%;
+    width:auto;
+}
+.NewThisWeek_h2{
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    color: rgb(33, 33, 33);
+    margin-bottom: 0px;
+    letter-spacing: -0.3px;
+    word-spacing: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.weekcomponent{
+    width: auto;
+    display: flex;
+    gap: 15px;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    margin-bottom: 20px;
+    scroll-behavior: smooth;
+    
+}
+.bottom_Container{
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+.bottom_filter{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 2px;
+    padding-right: 12px;
+    border-right: 1px solid lightgrey;
+}
+.bottom_choices{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    overflow-x: hidden;
+    margin-right: 5%;
+    scroll-behavior: smooth;
+}
+.crousel{
+    margin-right: 5%;
+    display: flex;
+    gap: 0.5rem;
+}
+button{
+    border-color: lightgray;
+    background-color: white;
+    border: none;
+    outline: 1px solid rgb(224, 223, 223);
+    padding: 0.4rem 0.69rem;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    color: #2e2e2e;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(227, 227, 227);
+}
+.choicePrev{
+    position: relative;
+    left: 0
+}
+.choiceNext{
+    position: absolute;
+    right: 2rem
+}
+
+
+
+@media screen and (min-width: 650px) and (max-width: 990px) {
+    .bottom_filters{
+        display: none;
+    }
+}
+@media screen and (max-width: 650px) {
+    .bottom_filters{
+        display: none;
+    }
+}

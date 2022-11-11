@@ -1,0 +1,31 @@
+.popup_mainContainer{
+    position: fixed;
+    width: 14rem;
+    box-shadow: 0px 0px 5px lightgray ;
+    right: 120px;
+    top: 70px;
+    background-color: white;
+    border-radius: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left: 0rem;
+    color: rgb(18, 18, 18);
+}
+.signupContainer{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid lightgray ;
+}
+li{
+    font-size: 0.85rem;
+    font-weight: 300;
+    padding: 0.6rem 1.4rem ;
+}
+.signup{
+    font-weight: 400;
+}
+li:hover{
+    background-color: rgb(228, 137, 137);
+}
