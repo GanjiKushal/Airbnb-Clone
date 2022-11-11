@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import Topnav from './components/Header/topnav';
+import Topnav from './components/Topnavbar/topnav';
 import NewThisWeek_Header from './components/newThisWeek/TopContainer';
 import TripMain from './components/Trip/PlanATripMain';
 function App() {
